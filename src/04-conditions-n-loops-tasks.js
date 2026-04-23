@@ -289,7 +289,7 @@ function isCreditCardNumber(ccn) {
   let shouldDouble = false;
 
   for (let i = numStr.length - 1; i >= 0; i -= 1) {
-    let digit = parseInt(numStr.charAt(i), 10); 
+    let digit = parseInt(numStr.charAt(i), 10);
 
     if (shouldDouble) {
       digit *= 2;
